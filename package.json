@@ -1,0 +1,23 @@
+{
+  "name": "ff-glory-discord-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mobile-friendly FF GLORY reseller Discord bot.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
